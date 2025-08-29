@@ -115,6 +115,14 @@ Removing Task Manager app ...
 3. Mark tasks as Done (✔) or Delete (❌).
 4. Tasks remain stored in MySQL even after restart (volume persistence).
 
+    ---
+
+ ##  Originality
+- Web application written in Flask (Python)
+- Database integration with MySQL
+- Persistent storage using Docker volumes
+- Custom Docker setup with multiple services
+
 
 
 

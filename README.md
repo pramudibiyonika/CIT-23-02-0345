@@ -15,36 +15,29 @@ To deploy this application, ensure you have the following installed:
 - **Linux environment** (Ubuntu recommended)  
 - **Docker** (version 20+ recommended)  
 - **Docker Compose** plugin (newer `docker compose` command)  
-- **Git** (to clone and submit the project) 
+- **Git** (to clone and submit the project)
 
-📌 Network and Volume Details
+  ---
 
-Network: app-network (created for communication between containers)
+##  Network and Volume Details
+- **Network:** `app-network` (created for communication between containers)  
+- **Volume:** `db-data` (attached to MySQL container for persistent storage of tasks)
+  --- 
 
-Volume: db-data (attached to MySQL container for persistent storage of tasks)
+##  Container Configuration
+### 1. **Web Container (Flask App)**
+- **Image:** Built from `./app/Dockerfile`  
+- **Port:** 5000 (exposed as `http://localhost:5000`)  
+- **Depends on:** `db` container (MySQL)  
 
-📌 Container Configuration
-1. Web Container (Flask App)
-
-Image: Built from ./app/Dockerfile
-
-Port: 5000 (exposed as http://localhost:5000)
-
-Depends on: db container (MySQL)
-
-2. Database Container (MySQL)
-
-Image: mysql:5.7
-
-Port: 3306 (internal, not exposed to host)
-
-Environment variables:
-
-MYSQL_ROOT_PASSWORD=rootpassword
-
-MYSQL_DATABASE=taskdb
-
-Volume: db-data:/var/lib/mysql
+### 2. **Database Container (MySQL)**
+- **Image:** `mysql:5.7`  
+- **Port:** 3306 (internal, not exposed to host)  
+- **Environment variables:**  
+  - `MYSQL_ROOT_PASSWORD=rootpassword`  
+  - `MYSQL_DATABASE=taskdb`  
+- **Volume:** `db-data:/var/lib/mysql`
+  ---
 
 📌 Container List
 Container	Role	Port

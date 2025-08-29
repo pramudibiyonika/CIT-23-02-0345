@@ -50,9 +50,16 @@ To deploy this application, ensure you have the following installed:
 
 ##  Instructions
 
-### 🔹 1. Prepare Application
+###  1. Prepare Application
 ```bash
 ./prepare-app.sh
+```
+-Creates network (app-network)
+-Creates volume (db-data)
+-Builds Flask web app image
+---
+
+
 
 
 

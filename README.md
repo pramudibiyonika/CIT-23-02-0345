@@ -123,6 +123,8 @@ Removing Task Manager app ...
 - Persistent storage using Docker volumes
 - Custom Docker setup with multiple services
 
+   ---
+
 
 
 

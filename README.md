@@ -82,6 +82,32 @@ To deploy this application, ensure you have the following installed:
 - Stops and removes all containers, volumes, and network
 - Deletes persistent data
 
+---
+
+### Example Workflow
+```bash
+# Create application resources
+./prepare-app.sh
+Preparing Task Manager app ...
+
+# Run the application
+./start-app.sh
+Starting Task Manager app ...
+App running at: http://localhost:5000
+
+# Open the app in a browser
+http://localhost:5000
+
+# Stop the application
+./stop-app.sh
+Stopping Task Manager app ...
+
+# Remove everything
+./remove-app.sh
+Removing Task Manager app ...
+```
+
+
 
 
 

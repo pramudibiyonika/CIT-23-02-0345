@@ -45,5 +45,14 @@ To deploy this application, ensure you have the following installed:
 | `web`     | Flask Task Manager (frontend) | 5000 |
 | `db`      | MySQL Database (persistent)   | 3306 |
 
+---
+
+
+##  Instructions
+
+### 🔹 1. Prepare Application
+```bash
+./prepare-app.sh
+
 
 

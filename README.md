@@ -20,8 +20,8 @@ To deploy this application, ensure you have the following installed:
   ---
 
 ##  Network and Volume Details
-- **Network:** `app-network` (created for communication between containers)  
-- **Volume:** `db-data` (attached to MySQL container for persistent storage of tasks)
+- **Network-** `app-network` (created for communication between containers)  
+- **Volume-** `db-data` (attached to MySQL container for persistent storage of tasks)
   --- 
 
 ##  Container Configuration
@@ -39,11 +39,11 @@ To deploy this application, ensure you have the following installed:
 - **Volume:** `db-data:/var/lib/mysql`
   ---
 
-📌 Container List
-Container	Role	Port
-web	Flask Task Manager (frontend)	5000
-db	MySQL Database (persistent)	3306
-
+##  Container List
+| Container | Role             | Port |
+|-----------|------------------|------|
+| `web`     | Flask Task Manager (frontend) | 5000 |
+| `db`      | MySQL Database (persistent)   | 3306 |
 
 
 

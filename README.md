@@ -110,10 +110,10 @@ Removing Task Manager app ...
 ---
 
 ## Application Usage
-1.Open (http://localhost:5000) in a browser.
-2.Add a new task using the input field.
-3.Mark tasks as Done (✔) or Delete (❌).
-4.Tasks remain stored in MySQL even after restart (volume persistence).
+1. Open (http://localhost:5000) in a browser.
+2. Add a new task using the input field.
+3. Mark tasks as Done (✔) or Delete (❌).
+4. Tasks remain stored in MySQL even after restart (volume persistence).
 
 
 

@@ -11,7 +11,7 @@ It allows users to
 
 
 ##  Deployment Requirements
-To deploy this application, ensure you have the following installed:  
+To deploy this application, ensure you have the following installed  
 - **Linux environment** (Ubuntu recommended)  
 - **Docker** (version 20+ recommended)  
 - **Docker Compose** plugin (newer `docker compose` command)  

@@ -1,7 +1,7 @@
 #  Task Manager App – Assignment 1
 ##  Application Description
 This project is a **Task Manager Web Application** built using **Flask** (Python) and **MySQL**.  
-It allows users to:  
+It allows users to  
 - Add new tasks  
 - Mark tasks as done  
 - Delete tasks  

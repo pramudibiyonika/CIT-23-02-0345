@@ -1,11 +1,12 @@
 #  Task Manager App – Assignment 1
-Application Description
-This project is a Task Manager Web Application built using Flask (Python) and MySQL.
-It allows users to:
-Add new tasks
-Mark tasks as done
-Delete tasks
-Persist tasks even after container restarts (using Docker volumes)
+##  Application Description
+This project is a **Task Manager Web Application** built using **Flask** (Python) and **MySQL**.  
+It allows users to:  
+- Add new tasks  
+- Mark tasks as done  
+- Delete tasks  
+- Persist tasks even after container restarts (using Docker volumes)  
+
 
 Deployment Requirements
 To deploy this application, ensure you have the following installed:

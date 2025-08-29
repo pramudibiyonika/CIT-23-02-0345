@@ -1,4 +1,4 @@
-Task Manager App – Assignment 1
+#  Task Manager App – Assignment 1
 Application Description
 This project is a Task Manager Web Application built using Flask (Python) and MySQL.
 It allows users to:
@@ -51,7 +51,7 @@ Volume: db-data:/var/lib/mysql
 Container	Role	Port
 web	Flask Task Manager (frontend)	5000
 db	MySQL Database (persistent)	3306
-hi
+
 
 
 

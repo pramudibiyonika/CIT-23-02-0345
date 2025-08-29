@@ -64,7 +64,17 @@ To deploy this application, ensure you have the following installed:
 ./start-app.sh
 ```
 -Starts all containers in detached mode
--Flask app available at: (http://localhost:5000)
+-Flask app available at:  (http://localhost:5000)
+---
+
+### 3. Stop Application
+```bash
+./stop-app.sh
+```
+-Stops all containers
+-Persistent data in MySQL remains saved
+
+
 
 
 

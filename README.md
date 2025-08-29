@@ -54,25 +54,34 @@ To deploy this application, ensure you have the following installed:
 ```bash
 ./prepare-app.sh
 ```
--Creates network (app-network)
--Creates volume (db-data)
--Builds Flask web app image
+- Creates network (app-network)
+- Creates volume (db-data)
+- Builds Flask web app image
 ---
 
 ### 2. Start Application
 ```bash
 ./start-app.sh
 ```
--Starts all containers in detached mode
--Flask app available at:  (http://localhost:5000)
+- Starts all containers in detached mode
+- Flask app available at:  (http://localhost:5000)
 ---
 
 ### 3. Stop Application
 ```bash
 ./stop-app.sh
 ```
--Stops all containers
--Persistent data in MySQL remains saved
+- Stops all containers
+- Persistent data in MySQL remains saved
+---
+
+### 4. Remove Application
+```bash
+./remove-app.sh
+```
+- Stops and removes all containers, volumes, and network
+- Deletes persistent data
+
 
 
 

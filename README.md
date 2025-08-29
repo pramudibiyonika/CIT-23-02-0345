@@ -84,7 +84,7 @@ To deploy this application, ensure you have the following installed:
 
 ---
 
-### Example Workflow
+## Example Workflow
 ```bash
 # Create application resources
 ./prepare-app.sh
@@ -106,6 +106,18 @@ Stopping Task Manager app ...
 ./remove-app.sh
 Removing Task Manager app ...
 ```
+
+---
+
+## Application Usage
+1.Open (http://localhost:5000) in a browser.
+2.Add a new task using the input field.
+3.Mark tasks as Done (✔) or Delete (❌).
+4.Tasks remain stored in MySQL even after restart (volume persistence).
+
+
+
+
 
 
 

@@ -59,6 +59,14 @@ To deploy this application, ensure you have the following installed:
 -Builds Flask web app image
 ---
 
+### 2. Start Application
+```bash
+./start-app.sh
+```
+-Starts all containers in detached mode
+-Flask app available at: (http://localhost:5000)
+
+
 
 
 
